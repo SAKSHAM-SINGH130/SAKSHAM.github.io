@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow : none;
+}
+.header{
+    background-color: #10b57d;
+    height: 60vh;
+    width: 100%;
+}
+.main_heading{
+    margin-left: 150px;
+    color: white;
+    padding-top: 50px;
+
+
+}
+.card1{
+    Box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 850px;
+    height: 420px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 250px;
+    position: absolute;
+}
+.rightbody{
+    float: right;
+    width: 60%;
+}
+.leftbody{
+    float: left;
+    width: 40%;
+}
+.leftbody .image img{
+    width: 340px;
+    height: 420px;
+}
+.welcome{
+    background-color: #10b57d;
+    width: 150px;
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    margin-left: 25px;
+}
+.name_head{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.singh{
+    color: #10b57d;
+}
+.rightbody hr{
+    border: 0.1px solid gray;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.demon{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.Intro{
+    display: flex
+}
+.head_details li{
+    list-style-type: none;
+    padding-top: 5px;
+    margin-left: 25px;
+}
+.Name_details li{
+    margin-left: 25px;
+    list-style-type: none;
+    padding-top: 5px;
+}
+.tags  {
+    margin-top: 0px;
+    background-color: #10b57d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    color: white;
+}
+#link{
+    margin-left: 60px;
+}
+#google{
+    margin-left: 60px;
+}
+#facebook2{
+    margin-left: 60px;
+}
+#facebook3{
+    margin-left: 60px;
+}
+#link1{
+    margin-left: 60px;
+}
+.tags a{
+    color: white;
+    list-style: none;
+}
+.Middle_content{
+    margin-top: 290px;
+}
+.long_intro{
+    text-align: center;
+    color: #10b57d;
+}
+.card2{
+Box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+width: 850px;
+height: 510px;
+background-color: white;
+margin-top: 60px;
+margin-left: 250px;
+position: absolute;
+}
+.content1{
+    margin-left: 30px;
+    margin-top: 25px;
+    text-align: center;
+}
+.left_content{
+    float: left;
+    width: 50%;
+    
+}
+.right_content{
+    float: right;
+    width: 50%;
+    
+}
+.inro_imagelogo img{
+    height: 400px;
+    width: 400px;
+}
+.inro_imagelogo{
+    margin-top: 30px;
+}
+.fotter_content{
+    margin-top: 650px;
+}
+.skills{
+    text-align: center;
+    color: #10b57d;
+}
+.card3{
+    Box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 850px;
+    height: 525px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 250px;
+    position: absolute;
+}
+.container{
+    width: 100%;
+    background-color: #ddd;
+    padding: none;
+}
+.html{
+    text-align: right;
+    background-color: #10b57d;
+    width: 95%;
+    color: white;
+}
+.NAME{
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.css{
+    text-align: right;
+    background-color: #10b57d;
+    width: 90%;
+    color: white;
+}
+    
+.javascript{
+        text-align: right;
+        background-color: #10b57d;
+        width: 30%;
+        color: white;
+}
+.c{
+    text-align: right;
+    background-color: #10b57d;
+    width: 80%;
+    color: white;
+}
+.python{
+    text-align: right;
+    background-color: #10b57d;
+    width: 40%;
+    color: white;
+}
+.footer{
+   margin-top: 650px;
+}
+.break{
+    display: none;
+}
+.right{
+    text-align: center;
+    color: red ;
+}
+
+
+
+@media only screen and (max-width: 604px)
+{
+ .header{
+      width: 490px;  
+    }
+  .main_heading{
+      margin-left: 8px;
+  }
+  .First_haeding{
+      font-size: 35px;
+  }
+  .first_para{
+      font-size: 13px;
+      margin-left: 30px;
+  }
+  .card1{
+      margin-top: 5px;
+      margin-left: 10px;
+  }
+  .leftbody .image img{
+      width: 295px;
+      height: 370px;
+  }
+  .card1{
+       width: 292px;
+       height: 1060px;
+       margin-left: 22px;
+  }
+  .leftbody{
+      float: none;
+  }
+  .rightbody{
+      float: none;
+  }
+  .welcome{
+      margin-left: 75px;
+  }
+  .name_head{
+      font-size: 32px;
+  }
+  .singh{
+      font-size: 45px;
+  }
+  .demon{
+      font-size: 33px;
+  }
+  .rightbody hr{
+         margin-right: -51px;
+         margin-left: 42px;
+  }
+  .card2{
+      margin-top: 24px;
+      margin-left: 22px;
+      width: 292px ;
+      height: 1050px;
+  }
+  .tags{
+      width: 292px;
+      padding-bottom: 16px;
+  }
+  #link1{
+      margin-left: 40px;
+  }
+  #facebook3{
+      margin-left: 33px;
+  }
+  #facebook2{
+      margin-left: 26px;
+  }
+  #google{
+      margin-left: 23px;
+  }
+  #link{
+      margin-left: 25px;
+  }
+  .long_intro{
+      margin-top: 880px;
+      margin-right: 240px;
+  }
+  .right_content{
+      float: none;
+  }
+  .inro_imagelogo img{
+    height: 250px;
+    width: 250px
+  }
+  .inro_imagelogo{
+    margin-top: 32px;
+    margin-left: 22px;
+  }
+  .left_content{
+      float: none;
+      width: 95%;
+  }
+  .fotter_content{
+    margin-top: 1088px;
+    margin-left: 86px;
+  }
+  .card3{
+      width: 292px;
+      height: 510px;
+      margin-top: 28px;
+      margin-left: -68px;
+      
+  }
+  .skills{
+      text-align: start;
+      margin-top: 6px;
+  }
+  .right{
+      text-align: none;
+      margin-right: 300px;
+  }
+  
+  
+}
